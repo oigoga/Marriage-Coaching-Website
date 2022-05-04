@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              green: "#029837",
+              navyblue: "#000033",
+            },
+            borderRadius: {
+              none: "0",
+              sm: "0.125rem",
+              DEFAULT: "0.55rem",
+              DEFAULT: "4px",
+              md: "0.75rem",
+              lg: "1.25rem",
+              full: "9999px",
+              large: "12px",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss"></style>
+    <title>Business and coaching website</title>
+  </head>
+  <body>
+    <header>
+      <nav class="">
+        <div class="max-w-fit-content mx-auto my-5">
+          <img
+            src="resources/main logo white 2.png"
+            alt="Logo"
+            class="h-25 w-auto float-left mx-3 -my-2"
+          />
+          <ul class="inline-flex flex-row float-right">
+            <li class="mx-10"><a href="#">Home</a></li>
+            <li class="mx-10"><a href="#">About </a></li>
+            <li class="mx-10"><a href="#">Services</a></li>
+            <li class="mx-10">
+              <button
+                class="text-green border border-green hover:bg-grey-100 hover:text-green active:bg-green font-bold uppercase text-xs px-4 py-2 rounded-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              >
+                <a href="">Contact us</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="absolute mt-10">
+        <div class="float-left h-72 w-1/2 ml-16 mt-80 left-16">
+          <h1 class="text-3xl font-bold text-navyblue leading-16 py-4">
+            Marriage and Relationship <br />
+            Coaching
+          </h1>
+          <p class="leading-6 text-navyblue pb-4">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+            porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+            purus.
+          </p>
+          <button
+            class="bg-green text-white active:bg-green font-bold uppercase text-sm px-6 py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          >
+            <a href="#">Book Now</a>
+          </button>
+        </div>
+        <div class="right-14 top-14 float-right mt-20 mx-6">
+          <img src="./resources/Group 81.png" class="" alt="Hero picture" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
